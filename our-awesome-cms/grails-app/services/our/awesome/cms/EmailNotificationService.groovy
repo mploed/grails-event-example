@@ -8,6 +8,6 @@ class EmailNotificationService {
 
     @Selector("our.awesome.cms.article_published")
     def notifyBossOfNewArticle(Object eventData) {
-        println "now we will notify our boss about a new Article: " + eventData.toString()
+        println "Notify Boss by Mail of new Article: " + eventData.toString()
     }
 }
